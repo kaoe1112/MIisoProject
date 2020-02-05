@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    /* position: relative; */  
+    margin: 50px;
+    background-color: cadetblue; 
+}
+
+.logo {
+    position: relative; 
+}
+
+.logo a {
+    width: 60px; 
+    /* margin-left: 20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header,
+.footer, section {
+    width: 830px;
+    margin: 0 auto;
+}
+
+.navigation {
+    background-color: aqua;
+    width: 700px;
+    margin-left: 60px;
+}
+
+.open-navigation {
+    /* float: left; */
+    background-color: orange;
+}
+
+.open-navigation li {
+    float: left;
+    background-color: chartreuse;
+    padding: 0 14px; 
+}
+
+.client-menu li {
+    background-color: tomato; 
+    float: right; 
+    padding: 0 14px; 
+}
+
+.main {
+}
+
+.visual { 
+    background: no-repeat url("https://www.miso.kr/home-service-page/main-02-desktop.jpg"); 
+    height: 700px;
+    background-size : cover; 
+}
+.visual h2 {
+    font-size: 60px;
+    color:white;
+}
+.visual p {
+    font-size: 20px;
+    color:white;
+}
+.visual button {
+    font-size: 18px;
+    width: 250px;
+    height: 56px;
+    margin: 80px 0 0;
+    padding: 1px 6px;
+    border
+}
+    .daily-contain csection {
+        position:absolute;
+        background-color: red;
+        }
+          
+/* .daily-item  {
+  position:relative;
+} */
+
+.daily-img {
+    background: no-repeat url("https://www.miso.kr/home-service-page/main-3-1-desktop@2x.jpg") ; 
+    background-size: 375px 400px;
+}
