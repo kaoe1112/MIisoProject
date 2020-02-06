@@ -1,11 +1,122 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+/* 
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+} */
+
+.footer,
+.main,
+.subject,
+.visual-text {
+    width: 830px;
+    margin: 0 auto;
 }
 
 .header {
+    width: 100%;
     height: 80px;
-    /* position: relative; */  
+    background: orange;
+    position: fixed;
+}
+
+.header-visual {
+    background: no-repeat url(https://www.miso.kr/home-service-page/main-02-desktop.jpg);
+    background-size: cover;
+    height: 852px;
+    margin-bottom: 12px;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.header h1 {
+    height: 80px;
+    float: left;
+}
+
+.header img {
+    width: 62px;
+    height: 32px;
+    margin-right: 36px;
+
+}
+
+.visual-text .subject {
+    line-height: 80px;
+    margin-bottom: 16px;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    background: red;
+
+}
+
+.visual-text p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    color: white;
+    background: lime;
+}
+
+.header-visual {
+    margin: 0;
+    padding: 0;
+    height: 851px;
+}
+
+
+.header-visual button {
+    width: 250px;
+    height: 56px;
+    margin: 80px 0 0;
+    padding: 1px 6px;
+    background-color: rgb(5, 92, 245);
+    font-size: 18px;
+    justify-content: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.contain-daily {
+    margin: 88px 0 87px 0;
+    position: relative;
+    height: 400px;
+}
+.contain-daily h3 {
+    margin: 0 0 18px;
+    font-size: 32px;
+    font-weight: 700;
+    /* FLOAT:LEFT; */
+}
+
+.contain-daily img {
+    height: 100%;
+    /* float: right; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.contain-daily a{
+    /* white-space: nowrap; */
+}
+
+
+
+
+
+
+/* 
+.header {
+    height: 80px;
+    position: relative;  
     margin: 50px;
     background-color: cadetblue; 
 }
@@ -16,7 +127,7 @@
 
 .logo a {
     width: 60px; 
-    /* margin-left: 20px; */
+    margin-left: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +150,7 @@
 }
 
 .open-navigation {
-    /* float: left; */
+    float: left;
     background-color: orange;
 }
 
@@ -84,11 +195,9 @@
         background-color: red;
         }
           
-/* .daily-item  {
-  position:relative;
-} */
+
 
 .daily-img {
     background: no-repeat url("https://www.miso.kr/home-service-page/main-3-1-desktop@2x.jpg") ; 
     background-size: 375px 400px;
-}
+} */
