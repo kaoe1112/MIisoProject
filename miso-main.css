@@ -21,17 +21,11 @@
 .header {
     width: 100%;
     height: 80px;
-    background: orange;
+    /* background: orange; */
     position: fixed;
-}
-
-.header-visual {
-    background: no-repeat url(https://www.miso.kr/home-service-page/main-02-desktop.jpg);
-    background-size: cover;
-    height: 852px;
-    margin-bottom: 12px;
-    padding-top: 200px;
-    width: 100%;
+    position: relative;
+    color: white;
+    opacity: 0;
 }
 
 .header h1 {
@@ -43,7 +37,6 @@
     width: 62px;
     height: 32px;
     margin-right: 36px;
-
 }
 
 .visual-text .subject {
@@ -52,8 +45,6 @@
     font-size: 60px;
     font-weight: 900;
     color: white;
-    background: red;
-
 }
 
 .visual-text p {
@@ -61,7 +52,6 @@
     font-weight: normal;
     line-height: 30px;
     color: white;
-    background: lime;
 }
 
 .header-visual {
@@ -69,7 +59,6 @@
     padding: 0;
     height: 851px;
 }
-
 
 .header-visual button {
     width: 250px;
@@ -85,11 +74,21 @@
     font-weight: bold;
 }
 
+.header-visual {
+    background: no-repeat url(https://www.miso.kr/home-service-page/main-02-desktop.jpg);
+    background-size: cover;
+    height: 852px;
+    margin-bottom: 12px;
+    padding-top: 200px;
+    width: 100%;
+}
+
 .contain-daily {
     margin: 88px 0 87px 0;
     position: relative;
     height: 400px;
 }
+
 .contain-daily h3 {
     margin: 0 0 18px;
     font-size: 32px;
@@ -104,14 +103,24 @@
     top: 0;
     right: 0;
 }
-.contain-daily a{
-    /* white-space: nowrap; */
+
+.client-menu {
+
 }
 
+.sub-menu {
+    float:left;
+    text-align: center;
+}
+.client-sub-menu {
+float:right;
+text-align: center;
+}
 
-
-
-
+.contain-homesurvice-main h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
 
 /* 
 .header {
