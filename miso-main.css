@@ -3,30 +3,29 @@
     margin: 0;
 }
 
-/* 
+
 .clearfix {
     content: "";
     clear: both;
     display: block;
-} */
-
-.footer,
-.main,
-.subject,
-.visual-text {
-    width: 830px;
-    margin: 0 auto;
 }
 
-.header {
-    width: 100%;
+header.header {
+    /* width: 100%; */
     height: 80px;
     /* background: orange; */
     position: fixed;
     position: relative;
-    color: white;
-    opacity: 0;
+    opacity: 1;
+    margin-left: 60px;
+    color: black;
+    background: transparent;
+    display: inline-block;
+
 }
+.header .visual-text{
+}
+
 
 .header h1 {
     height: 80px;
@@ -45,6 +44,7 @@
     font-size: 60px;
     font-weight: 900;
     color: white;
+    margin:0 auto;
 }
 
 .visual-text p {
@@ -52,12 +52,15 @@
     font-weight: normal;
     line-height: 30px;
     color: white;
+    
 }
 
-.header-visual {
-    margin: 0;
-    padding: 0;
-    height: 851px;
+
+.visual-text {
+    /* margin: 0;
+    padding: 0; */
+    /* height: 851px; */
+        margin: 0 auto;
 }
 
 .header-visual button {
@@ -81,46 +84,12 @@
     margin-bottom: 12px;
     padding-top: 200px;
     width: 100%;
-}
-
-.contain-daily {
-    margin: 88px 0 87px 0;
-    position: relative;
-    height: 400px;
-}
-
-.contain-daily h3 {
-    margin: 0 0 18px;
-    font-size: 32px;
-    font-weight: 700;
-    /* FLOAT:LEFT; */
-}
-
-.contain-daily img {
-    height: 100%;
-    /* float: right; */
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.client-menu {
 
 }
 
-.sub-menu {
-    float:left;
-    text-align: center;
-}
-.client-sub-menu {
-float:right;
-text-align: center;
-}
 
-.contain-homesurvice-main h3 {
-    font-size: 40px;
-    font-weight: bold;
-}
+
+
 
 /* 
 .header {
@@ -174,39 +143,3 @@ text-align: center;
     float: right; 
     padding: 0 14px; 
 }
-
-.main {
-}
-
-.visual { 
-    background: no-repeat url("https://www.miso.kr/home-service-page/main-02-desktop.jpg"); 
-    height: 700px;
-    background-size : cover; 
-}
-.visual h2 {
-    font-size: 60px;
-    color:white;
-}
-.visual p {
-    font-size: 20px;
-    color:white;
-}
-.visual button {
-    font-size: 18px;
-    width: 250px;
-    height: 56px;
-    margin: 80px 0 0;
-    padding: 1px 6px;
-    border
-}
-    .daily-contain csection {
-        position:absolute;
-        background-color: red;
-        }
-          
-
-
-.daily-img {
-    background: no-repeat url("https://www.miso.kr/home-service-page/main-3-1-desktop@2x.jpg") ; 
-    background-size: 375px 400px;
-} */
